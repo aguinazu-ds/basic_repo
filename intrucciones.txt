@@ -1,0 +1,16 @@
+Crear repositorio en Github usando mi cuenta aguinazu-ds.
+
+Crear repositorio local:
+    - mkdir basic_repo
+    - cd basic_repo
+    - git init
+
+Crear archivo en repositorio local:
+    - touch index.html
+
+Agregar, confirmar y empujar archivos a github:
+    - git add .
+    - git commit -m 'index.html'
+    - git remote add origin https://github.com/aguinazu-ds/basic_repo.git
+    - git branch -M main
+    - git push -u origin main
